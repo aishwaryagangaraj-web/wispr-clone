@@ -3,7 +3,8 @@ const stopBtn = document.getElementById("stop") as HTMLButtonElement;
 const output = document.getElementById("output") as HTMLTextAreaElement;
 
 
-const DEEPGRAM_API_KEY = "9aacb515d15848bebb5a8b4d8feb8d670d976b3d";
+const DEEPGRAM_API_KEY = "YOUR_DEEPGRAM_API_KEY";
+
 
 let socket: WebSocket | null = null;
 let audioContext: AudioContext | null = null;
