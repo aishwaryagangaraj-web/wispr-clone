@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wispr Clone</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🎤 Wispr Voice to Text</h2>
+
+    <div class="buttons">
+      <button id="start">Start Recording</button>
+      <button id="stop" disabled>Stop</button>
+    </div>
+
+    <textarea
+      id="output"
+      placeholder="Your speech will appear here..."
+    ></textarea>
+
+    <div class="footer">Fast real-time speech recognition</div>
+  </div>
+
+  
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
